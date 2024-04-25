@@ -17,6 +17,7 @@ export default {
 				'primary-white': '#FFFFFF',
 				'primary-black': '#000000',
 				'primary-green': '#38a84e',
+				'background': '#A9DCEF'
 			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif']

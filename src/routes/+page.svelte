@@ -94,10 +94,10 @@
 	}
 </script>
 
-
+<!-- large screen component -->
 <div class="hidden lg:flex justify-start w-full relative p-4 h-screen gap-4 bg-gray-100">
 	<div class="flex basis-8/12">
-		<img src="mountainMap2.png" alt="map of brighton ski resort mountain" class="object-cover w-full rounded-lg shadow-lg"/>
+		<img src="mountainMap.png" alt="map of brighton ski resort mountain" class="object-cover w-full rounded-lg shadow-lg "/>
 	</div>
 
 	<div class="basis-4/12 h-full border rounded-lg shadow-lg bg-gray-50 transition-all duration-300">
@@ -287,9 +287,12 @@
 </div>
 
 
-<div class=" lg:hidden flex justify-start w-full h-screen bg-gray-100 overflow-y-hidden">
+<!-- small screen component -->
+<div class="bg-background lg:hidden flex justify-start w-full h-screen md:bg-gray-100 overflow-y-hidden">
 	
-	<img src="mountainMap4.png" alt="map of brighton ski resort mountain" class="object-cover w-full relative"/>
+	<img src="mountainMap2.png" alt="map of brighton ski resort mountain" class="object-cover w-full relative hidden md:block"/>
+
+	<img src="mountainMap3.png" alt="map of brighton ski resort mountain" class="object-contain w-full relative md:hidden"/>
 	
 	<div class="absolute z-10 right-0 h-full bg-gray-50 rounded-t-lg {OpenMenuBar} transition-all duration-300">
 		<div class="flex justify-center absolute z-10 top-6 left-[-3rem]">
